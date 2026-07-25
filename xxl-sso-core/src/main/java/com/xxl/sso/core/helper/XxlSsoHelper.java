@@ -170,7 +170,7 @@ public class XxlSsoHelper {
         // parse token
         LoginInfo loginInfoForToken = TokenHelper.parseToken(token);
         if (loginInfoForToken == null) {
-            return Response.ofFail("logout fail, token is invalid");
+            return Response.ofSuccess();        // invalid token; no need to logout.
         }
 
         // remove store-LoginInfo
