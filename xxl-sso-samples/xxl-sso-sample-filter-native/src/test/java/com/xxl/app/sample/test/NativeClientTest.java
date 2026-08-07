@@ -22,7 +22,7 @@ public class NativeClientTest {
 	 */
 	public static String client01 = "http://xxlssoclient1.com:8082";
 	public static String client02 = "http://xxlssoclient2.com:8082";
-	private static final String TEST_TOKEN_KEY = "xxl_sso_token";		// same with application.properties
+	private static final String TEST_TOKEN_KEY = "xxl-sso-token";		// same with application.properties
 
 	/**
 	 * For openapi server, it is recommended to deploy and provide services separately

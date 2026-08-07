@@ -24,7 +24,7 @@ public class XxlSsoHelperTest {
                 "",
                 "",
                 "xxl_sso_user"));
-        bootstrap.setTokenKey("xxl_sso_token");
+        bootstrap.setTokenKey(Const.XXL_SSO_TOKEN);
         bootstrap.setTokenTimeout(604800000);
 
         bootstrap.start();

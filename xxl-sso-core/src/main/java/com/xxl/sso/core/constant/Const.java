@@ -33,7 +33,7 @@ public class Const {
     /**
      * xxl-sso token, for cookie-key、header-key
      */
-    public static final String XXL_SSO_TOKEN = "xxl_sso_token";
+    public static final String XXL_SSO_TOKEN = "xxl-sso-token";
     /**
      * xxl-sso user, for request.attribute - key
      */

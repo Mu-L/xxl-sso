@@ -144,7 +144,7 @@ XXL-SSO 作为单点登录框架，支持业务渐进式集成接入使用。结
 
 ```
 ### xxl-sso 登录凭证/token传输key, 用于cookie、header登录凭证传输；
-xxl-sso.token.key=xxl_sso_token
+xxl-sso.token.key=xxl-sso-token
 ### xxl-sso 登录凭证/token超时时间，单位毫秒；
 xxl-sso.token.timeout=604800000
 ### xxl-sso 登录态持久化配置，如下为Redis组件相关配置；
@@ -357,7 +357,7 @@ public Response<String> test41(HttpServletRequest request) {
 
 ```
 ### xxl-sso 登录凭证/token传输key, 用于cookie、header登录凭证传输；
-xxl-sso.token.key=xxl_sso_token
+xxl-sso.token.key=xxl-sso-token
 ### xxl-sso 登录凭证/token超时时间，单位毫秒；
 xxl-sso.token.timeout=604800000
 ### xxl-sso 登录态持久化配置，如下为Redis组件相关配置；
@@ -524,7 +524,7 @@ CAS单点登录 依赖 CAS认证中心，CAS认证中心提供单点登录基础
 
 ```
 ### xxl-sso 登录凭证/token传输key, 用于cookie、header登录凭证传输；
-xxl-sso.token.key=xxl_sso_token
+xxl-sso.token.key=xxl-sso-token
 ### xxl-sso 登录凭证/token超时时间，单位毫秒；
 xxl-sso.token.timeout=604800000
 ### xxl-sso 登录态持久化配置，如下为Redis组件相关配置；
