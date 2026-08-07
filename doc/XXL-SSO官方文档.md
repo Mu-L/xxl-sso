@@ -906,7 +906,7 @@ Response<String> result = XxlSsoHelper.hasPermission(LoginInfo loginInfo, String
 ### v2.4.2 Release Notes [ING]
 - 1、【ING】增强用户增强安全性：登陆用户数据中，新增客户端信息如ip、ua等，防止token被窃取；
 - 2、【ING】集成 Spring-Cloud-Gateway，并提供接入示例；（支持 interceptor、filter、webflux、gateway）
-
+- 3、【ING】SSO 请求Token，下划线间隔改为中划线方式，避免Nginx等默认不支持问题；
 
 ### TODO LIST
 - 1、增强用户增强安全性：登陆用户数据中，新增客户端信息如ip、ua等，防止token被窃取；
