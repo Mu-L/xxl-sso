@@ -903,7 +903,6 @@ Response<String> result = XxlSsoHelper.hasPermission(LoginInfo loginInfo, String
 - 4、【修复】票据超时时间单位问题修复；
 - 5、【升级】升级多项依赖至较新版本；
 
-
 ### v2.4.2 Release Notes [ING]
 - 1、【ING】增强用户增强安全性：登陆用户数据中，新增客户端信息如ip、ua等，防止token被窃取；
 - 2、【ING】集成 Spring-Cloud-Gateway，并提供接入示例；（支持 interceptor、filter、webflux、gateway）
