@@ -59,10 +59,17 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- springmvc (support annotation) -->
+        <!-- springmvc (support springmvc) -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- reactor-core (support webflux / reactive) -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
             <scope>provided</scope>
         </dependency>
 

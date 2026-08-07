@@ -32,7 +32,7 @@
         <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
         <!-- base -->
         <slf4j-api.version>2.0.18</slf4j-api.version>
-        <junit-jupiter.version>6.1.2</junit-jupiter.version>
+        <junit-jupiter.version>6.0.3</junit-jupiter.version>
 
         <!-- servlet -->
         <jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
@@ -40,6 +40,8 @@
         <!-- spring -->
         <spring-boot.version>4.1.0</spring-boot.version>
         <spring.version>7.0.8</spring.version>
+        <!-- reactor -->
+        <reactor.version>3.8.6</reactor.version>
 
         <!-- xxl-tool -->
         <xxl-tool.version>2.5.2</xxl-tool.version>
@@ -103,6 +105,13 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
+            </dependency>
+
+            <!-- reactor-core (support reactive / webflux filter) -->
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>${reactor.version}</version>
             </dependency>
 
             <!-- springmvc (support annotation) -->
@@ -225,6 +234,9 @@
                                 <artifact>xxl-sso-sample-filter-cas</artifact>
                                 <artifact>xxl-sso-sample-filter-native</artifact>
                                 <artifact>xxl-sso-sample-filter-web</artifact>
+                                <artifact>xxl-sso-sample-reactive-web</artifact>
+                                <artifact>xxl-sso-sample-reactive-native</artifact>
+                                <artifact>xxl-sso-sample-reactive-cas</artifact>
                             </excludeArtifacts>
                         </configuration>
                     </plugin>

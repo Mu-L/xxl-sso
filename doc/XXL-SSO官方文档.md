@@ -897,14 +897,16 @@ Response<String> result = XxlSsoHelper.hasPermission(LoginInfo loginInfo, String
 - 2、【升级】升级多项依赖至较新版本，如 jedis、xxl-tool、spring 等；
 
 ### v2.4.1 Release Notes [2026-08-08]
-- 1、【重构】项目结构重构，提升项目可读性与可维护性；
-- 2、【新增】新增基于Header的登出功能，支持前后端分离、移动端场景操作体验；
-- 3、【修复】票据超时时间单位问题修复；
-- 4、【升级】升级多项依赖至较新版本；
-- 5、【ING】集成WebFlux、Spring-Cloud-Gateway，并提供接入示例；（支持 interceptor、filter、webflux、gateway）
+- 1、【新增】WebFlux 支持：登录认证组件（Auth）新增WebFlux相关组件，并提供接入示例项目（xxl-sso-sample-reactive-cas/web/native）；
+- 2、【重构】项目结构重构，提升项目可读性与可维护性；
+- 3、【新增】新增基于Header的登出功能，支持前后端分离、移动端场景操作体验；
+- 4、【修复】票据超时时间单位问题修复；
+- 5、【升级】升级多项依赖至较新版本；
+
 
 ### v2.4.2 Release Notes [ING]
 - 1、【ING】增强用户增强安全性：登陆用户数据中，新增客户端信息如ip、ua等，防止token被窃取；
+- 2、【ING】集成 Spring-Cloud-Gateway，并提供接入示例；（支持 interceptor、filter、webflux、gateway）
 
 
 ### TODO LIST

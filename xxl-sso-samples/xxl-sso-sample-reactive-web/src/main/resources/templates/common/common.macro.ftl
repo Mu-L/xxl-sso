@@ -1,0 +1,38 @@
+<#-- import: style -->
+<#macro commonStyle>
+
+    <#-- title、favicon、meta -->
+    <title>XXL-SSO接入示例</title>
+    <link rel="icon" href="${springMacroRequestContext.contextPath}/static/favicon.ico" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <#-- css -->
+    <link rel="stylesheet" href="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="${springMacroRequestContext.contextPath}/static/adminlte/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="${springMacroRequestContext.contextPath}/static/adminlte/dist/css/skins/_all-skins.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</#macro>
+
+<#-- import: script -->
+<#macro commonScript>
+
+    <script src="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/jquery/jquery.min.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/adminlte/dist/js/adminlte.min.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/adminlte/bower_components/fastclick/fastclick.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/plugins/jquery/jquery.validate.min.js"></script>
+    <script src="${springMacroRequestContext.contextPath}/static/plugins/layer/layer.js"></script>
+    <script>
+        // init page param
+        var base_url = '${springMacroRequestContext.contextPath}';
+    </script>
+
+</#macro>

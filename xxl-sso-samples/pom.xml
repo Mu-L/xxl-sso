@@ -18,6 +18,9 @@
         <module>xxl-sso-sample-filter-web</module>
         <module>xxl-sso-sample-filter-native</module>
         <module>xxl-sso-sample-filter-cas</module>
+        <module>xxl-sso-sample-reactive-web</module>
+        <module>xxl-sso-sample-reactive-native</module>
+        <module>xxl-sso-sample-reactive-cas</module>
     </modules>
 
     <properties>
